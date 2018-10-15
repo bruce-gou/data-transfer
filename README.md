@@ -10,7 +10,7 @@ npm i @qcnh1920/data-transfer
 import { getTree, getArray }  from '@qcnh1920/data-transfer';
 
 <h2>API</h2>
-<ul>
+<ul style="list-style:none">
 	<li>
 		1. 把普通数组转成树型结构数据：<a target="view_window" href="https://www.cnblogs.com/bruce-gou/p/9773438.html">示例</a>
 		<h3 style="margin-left:30px">getTree(data, pid)</h3>
