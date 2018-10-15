@@ -10,9 +10,9 @@ npm i @qcnh1920/data-transfer
 import { getTree, getArray }  from '@qcnh1920/data-transfer';
 
 <h2>API</h2>
-<ul style="list-style-type:none">
+<ol>
 	<li>
-		1. 把普通数组转成树型结构数据：<a target="view_window" href="https://www.cnblogs.com/bruce-gou/p/9773438.html">示例</a>
+		把普通数组转成树型结构数据：<a target="view_window" href="https://www.cnblogs.com/bruce-gou/p/9773438.html">示例</a>
 		<h3 style="margin-left:30px">getTree(data, pid)</h3>
 		<dl>
 			<dt>参数：</dt>
@@ -21,11 +21,11 @@ import { getTree, getArray }  from '@qcnh1920/data-transfer';
 		</dl>
 	</li>
 	<li>
-		2.把树型数据再转成普通数组：<a target="view_window" href="https://www.cnblogs.com/bruce-gou/p/9773438.html">示例</a>
+		把树型数据再转成普通数组：<a target="view_window" href="https://www.cnblogs.com/bruce-gou/p/9773438.html">示例</a>
 		<h3 style="margin-left:30px">getArray(data)</h3>
 		<dl>
 			<dt>参数：</dt>
 			<dd>data: 树型结构数组，子级数组字段为 children </dd>
 		</dl>
 	</li>
-</ul>
+</ol>
