@@ -1,6 +1,6 @@
 {
   "name": "@qcnh1920/data-transfer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "数据处理",
   "main": "index.js",
   "scripts": {

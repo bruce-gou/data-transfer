@@ -33,4 +33,14 @@ import { getTree, getArray }  from '@qcnh1920/data-transfer';
 			<dd>sortIdName: 排序的id 名字 ，可选 默认 id</dd>
 		</dl>
 	</li>
+	<li>
+		数组去重：<a target="view_window" href="https://www.cnblogs.com/bruce-gou/p/5237619.html">示例</a>
+		<h3 style="margin-left:30px">unique(data, isField, fieldName)</h3>
+		<dl>
+			<dt>参数：</dt>
+			<dd>data: 数组, 必填参数 [1,2,3,4,4,5,5] 数据格式 </dd>
+			<dd>isField: 选填参数  是否数组对象指定一个字段去重,默认 false，该参数传了fieldName则需要指定 ，isField为true data的数据格式[{id:0,name:'zs'},{id:1,name:'ls'},{id:1,name:'ls'},{id:2,name:'ww'},{id:2,name:'ww'}];</dd>
+			<dd>fieldName: 选填参数  根据某个字段去重，的字段名，isField 为true 时，必填</dd>
+		</dl>
+	</li>
 </ol>
