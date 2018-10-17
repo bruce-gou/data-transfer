@@ -27,7 +27,7 @@ import { getTree, getArray }  from '@qcnh1920/data-transfer';
 		<h3 style="margin-left:30px">getArray(data, childrenName, isSort, sortIdName)</h3>
 		<dl>
 			<dt>参数：</dt>
-			<dd><strong>data: 树型结构数组，子级数组字段为 children </dd>
+			<dd><strong>data</strong>: 树型结构数组，子级数组字段为 children </dd>
 			<dd><strong>childrenName</strong>: 子集数组对象的名字，可选 默认 children</dd>
 			<dd><strong>isSort</strong>: 布尔值 是否根据 id 大小排序，可选 默认 false</dd>
 			<dd><strong>sortIdName</strong>: 排序的id 名字 ，可选 默认 id</dd>
