@@ -39,7 +39,7 @@ import { getTree, getArray }  from '@qcnh1920/data-transfer';
 		<dl>
 			<dt>参数：</dt>
 			<dd><strong>data</strong>: 数组, 必填参数 [1,2,3,4,4,5,5] 数据格式 </dd>
-			<dd><strong>isField</strong>: 选填参数  是否数组对象指定一个字段去重,默认 false，该参数为true,fieldName则需要指定 ，isField为true data的数据格式[{id:0,name:'zs'},{id:1,name:'ls'},{id:1,name:'ls'},{id:2,name:'ww'},{id:2,name:'ww'}];</dd>
+			<dd><strong>isField</strong>: 选填参数  是否数组对象指定一个字段去重,默认 false，该参数为true,fieldName则需要指定 ，isField为true, data的数据格式[{id:0,name:'zs'},{id:1,name:'ls'},{id:1,name:'ls'},{id:2,name:'ww'},{id:2,name:'ww'}];</dd>
 			<dd><strong>fieldName</strong>: 选填参数  根据某个字段去重，的字段名，isField 为true 时，必填</dd>
 		</dl>
 	</li>
